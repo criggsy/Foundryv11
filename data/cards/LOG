@@ -1,0 +1,14 @@
+2024/02/26-17:43:30.528898 7f62d7731b38 Recovering log #84
+2024/02/26-17:43:30.556843 7f62d7731b38 Delete type=3 #82
+2024/02/26-17:43:30.556864 7f62d7731b38 Delete type=0 #84
+2024/02/26-17:45:36.128480 7f605042bb38 Level-0 table #89: started
+2024/02/26-17:45:36.135229 7f605042bb38 Level-0 table #89: 26510 bytes OK
+2024/02/26-17:45:36.143609 7f605042bb38 Delete type=0 #87
+2024/02/26-17:45:36.183022 7f605042bb38 Manual compaction at level-0 from '!cards!HPYnKDCoHKvTdnml' @ 72057594037927935 : 1 .. '!cards.cards!dVBhGHrEvu72myvV.zRn2hv2ENgF18Xl1' @ 0 : 0; will stop at '!cards.cards!dVBhGHrEvu72myvV.zRn2hv2ENgF18Xl1' @ 554 : 1
+2024/02/26-17:45:36.183028 7f605042bb38 Compacting 1@0 + 1@1 files
+2024/02/26-17:45:36.189776 7f605042bb38 Generated table #90@0: 72 keys, 26530 bytes
+2024/02/26-17:45:36.189785 7f605042bb38 Compacted 1@0 + 1@1 files => 26530 bytes
+2024/02/26-17:45:36.198488 7f605042bb38 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/26-17:45:36.198529 7f605042bb38 Delete type=2 #61
+2024/02/26-17:45:36.198569 7f605042bb38 Delete type=2 #89
+2024/02/26-17:45:36.345929 7f605042bb38 Manual compaction at level-0 from '!cards.cards!dVBhGHrEvu72myvV.zRn2hv2ENgF18Xl1' @ 554 : 1 .. '!cards.cards!dVBhGHrEvu72myvV.zRn2hv2ENgF18Xl1' @ 0 : 0; will stop at (end)

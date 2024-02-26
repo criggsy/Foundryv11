@@ -1,0 +1,25 @@
+2024/02/26-17:40:59.725333 7f62d672bb38 Recovering log #104
+2024/02/26-17:40:59.725459 7f62d672bb38 Level-0 table #106: started
+2024/02/26-17:40:59.740186 7f62d672bb38 Level-0 table #106: 3161 bytes OK
+2024/02/26-17:40:59.802684 7f62d672bb38 Delete type=3 #102
+2024/02/26-17:40:59.802710 7f62d672bb38 Delete type=0 #104
+2024/02/26-17:41:29.217929 7f605042bb38 Level-0 table #109: started
+2024/02/26-17:41:29.227396 7f605042bb38 Level-0 table #109: 2884 bytes OK
+2024/02/26-17:41:29.237881 7f605042bb38 Delete type=0 #107
+2024/02/26-17:41:29.260192 7f605042bb38 Manual compaction at level-0 from '!settings!02Z8OFL7LvF5orUo' @ 72057594037927935 : 1 .. '!settings!zqGRChZrVraU2Y2Z' @ 0 : 0; will stop at '!settings!kF5N8AJoaxpxbFYd' @ 817 : 1
+2024/02/26-17:41:29.260216 7f605042bb38 Compacting 3@0 + 0@1 files
+2024/02/26-17:41:29.278780 7f605042bb38 Generated table #110@0: 12 keys, 54186 bytes
+2024/02/26-17:41:29.278824 7f605042bb38 Compacted 3@0 + 0@1 files => 54186 bytes
+2024/02/26-17:41:29.290167 7f605042bb38 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/26-17:41:29.290320 7f605042bb38 Delete type=2 #109
+2024/02/26-17:41:29.290491 7f605042bb38 Delete type=2 #103
+2024/02/26-17:41:29.290682 7f605042bb38 Delete type=2 #106
+2024/02/26-17:41:29.323008 7f605042bb38 Manual compaction at level-0 from '!settings!kF5N8AJoaxpxbFYd' @ 817 : 1 .. '!settings!zqGRChZrVraU2Y2Z' @ 0 : 0; will stop at (end)
+2024/02/26-17:41:29.323166 7f605042bb38 Manual compaction at level-1 from '!settings!02Z8OFL7LvF5orUo' @ 72057594037927935 : 1 .. '!settings!zqGRChZrVraU2Y2Z' @ 0 : 0; will stop at '!settings!oTxELExfEp2E63DG' @ 799 : 1
+2024/02/26-17:41:29.323185 7f605042bb38 Compacting 1@1 + 1@2 files
+2024/02/26-17:41:29.341936 7f605042bb38 Generated table #111@1: 254 keys, 107106 bytes
+2024/02/26-17:41:29.341979 7f605042bb38 Compacted 1@1 + 1@2 files => 107106 bytes
+2024/02/26-17:41:29.359691 7f605042bb38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/02/26-17:41:29.359871 7f605042bb38 Delete type=2 #99
+2024/02/26-17:41:29.360048 7f605042bb38 Delete type=2 #110
+2024/02/26-17:41:29.395205 7f605042bb38 Manual compaction at level-1 from '!settings!oTxELExfEp2E63DG' @ 799 : 1 .. '!settings!zqGRChZrVraU2Y2Z' @ 0 : 0; will stop at (end)

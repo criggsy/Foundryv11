@@ -1,0 +1,21 @@
+2024/02/26-17:40:58.700872 7f62d7f34b38 Recovering log #93
+2024/02/26-17:40:58.763598 7f62d7f34b38 Delete type=0 #93
+2024/02/26-17:40:58.763674 7f62d7f34b38 Delete type=3 #91
+2024/02/26-17:41:28.908567 7f605042bb38 Level-0 table #97: started
+2024/02/26-17:41:28.908583 7f605042bb38 Level-0 table #97: 0 bytes OK
+2024/02/26-17:41:28.920353 7f605042bb38 Delete type=0 #95
+2024/02/26-17:41:28.932135 7f605042bb38 Manual compaction at level-0 from '!combats!5Xdw3FYW0ShI1E77' @ 72057594037927935 : 1 .. '!combats.combatants!9tdkuFyV7HdqNy3Q.zpKs6xJ1NLbUDI49' @ 0 : 0; will stop at '!combats.combatants!mEcILsyA3GIe9GSf.qpVPQMwHLbu5JHbh' @ 4571 : 1
+2024/02/26-17:41:28.932146 7f605042bb38 Compacting 1@0 + 0@1 files
+2024/02/26-17:41:28.943412 7f605042bb38 Generated table #98@0: 58 keys, 5162 bytes
+2024/02/26-17:41:28.943451 7f605042bb38 Compacted 1@0 + 0@1 files => 5162 bytes
+2024/02/26-17:41:28.955161 7f605042bb38 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/26-17:41:28.955343 7f605042bb38 Delete type=2 #92
+2024/02/26-17:41:29.118385 7f605042bb38 Manual compaction at level-0 from '!combats.combatants!mEcILsyA3GIe9GSf.qpVPQMwHLbu5JHbh' @ 4571 : 1 .. '!combats.combatants!9tdkuFyV7HdqNy3Q.zpKs6xJ1NLbUDI49' @ 0 : 0; will stop at (end)
+2024/02/26-17:41:29.118511 7f605042bb38 Manual compaction at level-1 from '!combats!5Xdw3FYW0ShI1E77' @ 72057594037927935 : 1 .. '!combats.combatants!9tdkuFyV7HdqNy3Q.zpKs6xJ1NLbUDI49' @ 0 : 0; will stop at '!combats.combatants!KITaajWr8w25K64g.VLSNXQ6QtnbEJzAM' @ 4503 : 0
+2024/02/26-17:41:29.118516 7f605042bb38 Compacting 1@1 + 1@2 files
+2024/02/26-17:41:29.124890 7f605042bb38 Generated table #99@1: 30 keys, 4524 bytes
+2024/02/26-17:41:29.124897 7f605042bb38 Compacted 1@1 + 1@2 files => 4524 bytes
+2024/02/26-17:41:29.133746 7f605042bb38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/02/26-17:41:29.133775 7f605042bb38 Delete type=2 #88
+2024/02/26-17:41:29.133802 7f605042bb38 Delete type=2 #98
+2024/02/26-17:41:29.154598 7f605042bb38 Manual compaction at level-1 from '!combats.combatants!KITaajWr8w25K64g.VLSNXQ6QtnbEJzAM' @ 4503 : 0 .. '!combats.combatants!9tdkuFyV7HdqNy3Q.zpKs6xJ1NLbUDI49' @ 0 : 0; will stop at (end)

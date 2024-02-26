@@ -1,0 +1,54 @@
+{
+  "title": "Dungeon of the Mad Mage",
+  "authors": [
+    {
+      "name": "R20Converter",
+      "flags": {}
+    }
+  ],
+  "version": "1.0.0",
+  "scripts": [
+    "templates/roll20-templates.js"
+  ],
+  "styles": [
+    "templates/roll20-templates.css"
+  ],
+  "packs": [
+    {
+      "label": "Temp Item",
+      "name": "srd5e-temp-item",
+      "path": "packs/srd5e-temp-item",
+      "system": "dnd5e",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Plutonium",
+      "name": "plutonium",
+      "path": "packs/plutonium",
+      "system": "dnd5e",
+      "type": "Item",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "system": "dnd5e",
+  "coreVersion": "11.315",
+  "resetKeys": false,
+  "safeMode": false,
+  "systemVersion": "3.0.3",
+  "id": "dungeon-of-the-mad-mage",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "lastPlayed": "Mon Feb 26 2024 17:45:36 GMT+0000 (Coordinated Universal Time)",
+  "playtime": 188790
+}
